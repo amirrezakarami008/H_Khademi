@@ -1,0 +1,69 @@
+.section-A {
+  color: #212529;
+}
+.mar-top {
+  margin-top: 15px;
+  font-size: 30px;
+  font-weight: bold;
+}
+.text-center-A {
+  text-align-last: center;
+  padding: 30px;
+}
+.animation-sec1 {
+  color: #0c0c0cc0;
+  font-weight: bold;
+  margin-top: 30px;
+  text-shadow: 4px 3px 4px #2125294e;
+}
+.animation-sec1::after {
+  content: "";
+  border-right: 2px solid #a9abad;
+  margin-right: 3px;
+  animation: blink 0.5s infinite ease;
+  -webkit-animation: blink 0.5s infinite ease;
+}
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.menu-item {
+  height: 170px;
+  border-radius: 50% 50% 0 0;
+  width: 50%;
+  margin: 20px auto;
+  text-align: center;
+  transition: all 0.5s;
+  color: #212529;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.049) 0px 3px 6px;
+  padding: 20px;
+  background-color: #00ffff22;
+  border-bottom: 1px solid #00000077;
+}
+.menu-item a {
+  text-decoration: none;
+  color: #212529;
+  display: block;
+  height: 70px;
+  padding-top: 15px;
+  border-radius: 10px;
+  transition: all 0.5s;
+}
+.menu-item a:hover {
+  color: #212529;
+}
+.menu-item:hover {
+  background-color: #346ed118;
+}
+@media screen and (max-width: 412px) {
+  .mar-top {
+    font-size: 20px;
+  }
+}
+.bg-icon {
+  color: #346ed1;
+}

@@ -1,0 +1,46 @@
+.footer {
+  background-color: #346ed1ba;
+  color: #212529;
+}
+.hoverStyle a {
+  color: #212529;
+}
+.hoverStyle a:hover {
+  color: #dcd9d9 !important;
+  padding-right: 5px;
+  transition: all 0.5s;
+}
+.iconStyle a {
+  color: #212529;
+}
+.iconStyle a:hover {
+  color: #dcd9d9 !important;
+  padding-right: 5px;
+  transition: all 0.5s;
+}
+
+.a-style-footer-bottom-right a {
+  color: #212529;
+  text-decoration: none;
+}
+.hover-app1,
+.hover-app2,
+.hover-app3 {
+  color: #ffffffba;
+}
+.hover-app1:hover {
+  color: #007bff;
+}
+.hover-app2:hover {
+  color: #ef476f;
+}
+.hover-app3:hover {
+  color: orange;
+}
+.icon-color {
+  color: #dcd9d9;
+}
+.border-b{
+  padding: 3px 0;
+  border-bottom: 1px solid #fff;
+}

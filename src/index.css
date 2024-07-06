@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "vazir" , "iphone";
+}
+@font-face {
+    src: url("assets/fonts/Vazirmatn-Regular.ttf");
+    font-family: "vazir";
+}
+@font-face {
+    src: url("assets/fonts/Loew\ Next\ Arabic\ Medium.otf");
+    font-family: "Loew";
+}
+@font-face {
+    src: url("assets/fonts/Cairo-Regular.ttf");
+    font-family: "Cairo";
+}
+@font-face {
+    src: url("assets/fonts/SF-Arabic.ttf");
+    font-family: "iphone";
+}
+.iphone{
+    font-family: "iphone";
+}
+.Cairo{
+    font-family: "Cairo";
+}
+.Leow{
+    font-family: "Loew";
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #dae5eb; 
+}
+::-webkit-scrollbar-thumb {
+    background: #346ed151;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #3485d1;
+}
+.m-inline{
+    margin-inline: -8px;
+}
+.txt-color{
+    color: #346ed1;
+}
+.bg-green{
+    background-color: #346ed1;
+}

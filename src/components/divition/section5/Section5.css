@@ -1,0 +1,40 @@
+.section-A {
+  color: #212529;
+}
+.counterBox {
+  background-color: #00ffff22;
+  margin: 10px 0;
+  text-align: center;
+  padding: 20px;
+  border-radius: 46% 54% 36% 64% / 59% 38% 62% 41%;
+  width: 70%;
+  margin: auto;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  color: #dae5eb;
+}
+.counterBox p {
+  color: #212529;
+}
+.counterBox .sizeCount {
+  color: #212529;
+}
+.icon-Size {
+  font-size: 40px;
+  color: #346ed1;
+}
+.number-counterBox,
+.number-counterBox-M {
+  font-weight: bold;
+  font-size: 25px;
+  margin-top: 30px;
+}
+.desc-counterBox {
+  font-size: 20px;
+  font-weight: bold;
+}
+.text-justify {
+  text-align: justify;
+}
+.sizeCount {
+  font-size: 30px;
+}

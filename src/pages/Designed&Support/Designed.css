@@ -1,0 +1,13 @@
+.screen-style{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#card-body{
+    color: #BDE8EE !important;
+    margin-top: -40px;
+    border-top: 2px solid #BDE8EE;
+    background-color: #212529;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}

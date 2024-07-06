@@ -1,0 +1,77 @@
+.btn-login {
+  background-color: #346ed10f;
+  border: none;
+  text-decoration: none;
+  opacity: 0.8;
+  padding: 10px 20px;
+  color: #212 !important;
+  border-radius: 10px;
+  border: 1px solid #0000000f !important;
+}
+.bg-nav {
+  background-color: #dae5eb;
+}
+.nav-link.active {
+  border-bottom: 2px solid #346ed137;
+}
+.nav-link:hover {
+  color: #346ed1;
+}
+#display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#menu-hide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#dsply,
+#dsply1,
+#dsply2,
+#dsply3,
+#dsply4,
+#dsply5,
+#dsply6 {
+  display: none;
+}
+@media screen and (max-width: 990px) {
+  #display {
+    display: flex !important;
+  }
+  #dsply,
+  #dsply1,
+  #dsply2,
+  #dsply3,
+  #dsply4,
+  #dsply5 {
+    display: flex !important;
+  }
+  #menu-hide {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 520px) {
+  #display {
+    margin: auto;
+  }
+}
+@media screen and (min-width: 991px) {
+  #display {
+    display: none;
+  }
+}
+/* بعد از اینکه سرچ باکس اضافه شد ، کد پایین از کامنت بیرون آورده شود */
+/* @media screen and (min-width: 520px) and (max-width: 992px) {
+  .fiexd-logo {
+    display: none;
+  }
+} */
+.navbar-toggler:focus , .btn-close:focus{
+  box-shadow: none !important;
+}
+.custom-icon-style{
+  color: #221122;
+  transform: rotate(100deg);
+}

@@ -1,0 +1,19 @@
+.box-bg {
+  background-color: #346ed10c;
+  border: 1px solid #346ed1;
+  transition: all 0.5s ease;
+  height: 550px !important;
+}
+.box-bg:hover {
+  border: 1px solid #346ed122;
+  background-color: #346ed125;
+  scale: none;
+  transition: all 0.3s;
+}
+.text-color {
+  color: #29292a;
+}
+.news-image{
+  width: 100%;
+  aspect-ratio: 3/2;
+}

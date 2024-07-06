@@ -1,0 +1,43 @@
+.flexible{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100wh;
+    border: 1px solid #346ed148;
+}
+.backgruond-color{
+    background: #dae5eb;
+    background: linear-gradient(90deg, #dae5eb 0%, #1fd86023 85%);
+}
+.line-height-section6{
+    line-height: 40px;
+}
+.shadow-section-6{
+    box-shadow: #3c40432f 0px 1px 5px 0px, rgba(60, 64, 67, 0.142) 0px 7px 6px 2px;
+    background-color: #346ed124;
+}
+.shadow-section-6:hover{
+    transition: all .5s;
+    transform: scale(1.05);
+}
+.text-justify{
+    text-align: justify;
+}
+.text-red{
+    color: #ef476f;
+}
+#box-height{
+    height: 300px;
+}
+.parallax{
+   background-image: url("../../../assets/images/success.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    mix-blend-mode: multiply !important;
+}
+.text-color{
+    color: #346ed1;
+}

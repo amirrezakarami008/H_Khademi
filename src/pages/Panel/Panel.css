@@ -1,0 +1,74 @@
+.bg-container {
+  background-color: #35373a !important;
+  overflow: hidden;
+  color: #fff;
+  text-align: center;
+  border-radius: 10px;
+}
+.card-header {
+  margin: 40px 0;
+}
+.card-header h6 {
+  margin: 23px 0;
+}
+.card-header img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.card-body-panel {
+  background-color: #35373a !important;
+}
+.card-body-panel button {
+  all: unset;
+  text-align: right;
+  display: block;
+  width: 90%;
+  margin: 15px auto;
+  padding: 10px;
+  transition: all 0.3s;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.card-body-panel button:hover {
+  background-color: #80808098;
+}
+.panel-option {
+  border-radius: 15px;
+  text-align: center;
+  background-color: #35373a;
+}
+.box-panel {
+  margin: 20px;
+  padding: 10px 0 !important;
+  border-radius: 10px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  background-color: #dae5ebd7;
+}
+.box-panel:hover {
+  background-color: #80808098;
+  color: #3485d1;
+  transition: all 0.5s;
+}
+.panel-option a {
+  color: #35373a;
+  text-decoration: none;
+}
+.fa-solid {
+  font-size: 3rem;
+}
+@media screen and (max-width: 992px) {
+  .bg-container {
+    display: none !important;
+    width: 25% !important;
+  }
+}
+@media screen and (max-width: 992px) {
+  .panel-box {
+    width: 75% !important;
+  }
+}
+#icon-list {
+  background-color: aqua !important;
+}

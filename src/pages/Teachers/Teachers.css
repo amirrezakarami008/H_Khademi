@@ -1,0 +1,26 @@
+.card-hover:hover{
+    border: 1px solid #346ed1;
+    scale: 1.05 !important;
+    transition: all .3s;
+}
+.card-footer-teacher{
+    
+    background-color: #dae5eb !important;
+}
+.app-color-Te{
+    color: #346ed1;
+}
+.app-color-In{
+    color: #ff0077;
+}
+.app-color-Ei{
+    color: #ffa600cb;
+}
+.eitta-style{
+    width: 27px;
+    height: 27px;
+}
+.phone-hover{
+    margin: 0 10px;
+    color: #346ed1;
+}

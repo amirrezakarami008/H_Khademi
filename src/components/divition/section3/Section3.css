@@ -1,0 +1,33 @@
+.p-section3{
+  padding: 10px;
+}
+.swiper {
+  width: 100%;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+}
+@media screen and (min-width : 768px) {
+  #albumHome{
+    width: 500px
+  }
+}
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  border-radius: 10px !important;
+  object-fit: cover;
+}
+.album-style{
+  margin: 0px 0 !important;
+  border-top: 5px solid #346ed1 ;
+  border-right: 5px solid #346ed1 ;
+  border-radius: 0 20px 0 0;
+}
+.image-style{
+  width: 100% !important;
+  height: 100% !important;
+}

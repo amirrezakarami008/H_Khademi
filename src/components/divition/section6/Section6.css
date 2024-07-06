@@ -1,0 +1,38 @@
+.section-6{
+  padding: 10px;
+}
+.btn-section6 {
+  background-color: #346ed124 !important;
+  border: 1px solid #00000029 !important;
+  border: none;
+  text-decoration: none;
+  opacity: 0.8;
+  padding: 10px 20px;
+  color: #212 !important;
+  border-radius: 10px;
+  margin: 10px 0;
+}
+.btn-section6:hover {
+  background-color: #346ed1 !important;
+  opacity: 1;
+  color: #dae5eb !important;
+  transition: all 0.5s;
+}
+.border-section6 {
+  border-left: 5px solid #346ed1 !important;
+  border-bottom: 5px solid #346ed1 !important;
+  
+  border-radius:0 0 0 20px;
+}
+.image-section6 {
+  display: flex;
+  flex-direction: column;
+}
+.none-sm {
+  display: none;
+}
+@media screen and (min-width: 992px) {
+  .none-sm {
+    display: flex;
+  }
+}

@@ -1,0 +1,18 @@
+.btnStyle {
+  all: unset;
+  background-color: #346ed124;
+  padding: 10px;
+  border-radius: 50% !important;
+  transition: all 0.3s ease;
+  border: 1px solid #00000029;
+  color: #346ed1;
+}
+.btnStyle:hover {
+  background-color: #346ed1;
+  color: #bde8ee;
+}
+@media screen and (max-width : 768px) {
+  .mediaQuery-style{
+    display: none;
+  }
+}
