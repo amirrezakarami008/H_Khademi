@@ -1,7 +1,7 @@
 import { Container, Row } from "react-bootstrap";
 import "./Section1.css";
 import Section1Item from "./Section1Item";
-import { FaRegNewspaper, FaSchoolCircleCheck } from "react-icons/fa6";
+import { FaRegNewspaper } from "react-icons/fa6";
 import { SlPicture } from "react-icons/sl";
 import { MdPermContactCalendar, MdConnectWithoutContact } from "react-icons/md";
 import { TfiCup } from "react-icons/tfi";
@@ -26,12 +26,12 @@ function Section1() {
       textValue: "گالری تصاویر",
       href: "/album",
     },
-    {
-      id: 3,
-      icon: <FaSchoolCircleCheck size={"40px"} />,
-      textValue: "پیش ثبت نام",
-      href: "/registration",
-    },
+    // {
+    //   id: 3,
+    //   icon: <FaSchoolCircleCheck size={"40px"} />,
+    //   textValue: "پیش ثبت نام",
+    //   href: "/registration",
+    // },
     {
       id: 4,
       icon: <MdConnectWithoutContact size={"40px"} />,

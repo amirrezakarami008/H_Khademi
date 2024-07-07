@@ -25,7 +25,7 @@ function AboutUs() {
       <Header />
       <Container>
         <Row>
-          <Col sm={12} md={4} className="mt-3">
+          <Col sm={12} md={4} className="mt-5">
             <Card className="bg-info fixed-style">
               <Card.Header className="text-dark">دسته بندی</Card.Header>
               <ListGroup variant="flush">
@@ -57,7 +57,7 @@ function AboutUs() {
               </ListGroup>
             </Card>
           </Col>
-          <Col sm={12} md={8} className="mt-5 mt-md-3">
+          <Col sm={12} md={8}>
             {abouts.map((item) => (
               <AboutUsItem key={item.id} {...item} />
             ))}

@@ -3,11 +3,15 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Offcanvas from "react-bootstrap/Offcanvas";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import Logo from "../../assets/images/Logo.jpg";
 import Aos from "aos";
 import { useEffect } from "react";
-import { FaPhoneFlip } from "react-icons/fa6";
+import { FaPhoneFlip, FaRegNewspaper } from "react-icons/fa6";
+import { SlPicture } from "react-icons/sl";
+import { MdConnectWithoutContact, MdPermContactCalendar } from "react-icons/md";
+import { TfiCup } from "react-icons/tfi";
+import { IoHomeOutline } from "react-icons/io5";
 // search-Box-Import
 // import Form from "react-bootstrap/Form";
 // import { useState } from 'react';
@@ -36,19 +40,21 @@ function Header() {
               aria-controls={`offcanvasNavbar-expand-${expand}`}
             />
             <Navbar.Brand href="#">
-              <img
-                src={Logo}
-                className="img-fluid border-logo shadow"
-                style={{
-                  width: "50px",
-                  height: "50px",
-                  borderColor: "#346ed1",
-                  borderRadius: "50%",
-                }}
-                data-aos="fade-left"
-                data-aos-duration="1000"
-                alt=""
-              />
+              <Link to="/">
+                <img
+                  src={Logo}
+                  className="img-fluid border-logo shadow"
+                  style={{
+                    width: "50px",
+                    height: "50px",
+                    borderColor: "#346ed1",
+                    borderRadius: "50%",
+                  }}
+                  data-aos="fade-left"
+                  data-aos-duration="1000"
+                  alt=""
+                />
+              </Link>
             </Navbar.Brand>
           </div>
           <NavLink
@@ -57,7 +63,7 @@ function Header() {
             id="display"
             data-aos="fade-right"
           >
-            <span className="mx-1">035-36217013</span>
+            <span className="header-phone">035-36217013</span>
             <span className="mx-1">
               <FaPhoneFlip size={"20px"} className="custom-icon-style" />
             </span>
@@ -97,32 +103,62 @@ function Header() {
             placement="start"
           >
             <Offcanvas.Header closeButton>
-              <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
+              <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`} className="custom-offcanvas-title">
                 هنرستان فنی نمونه دولتی خادمی
               </Offcanvas.Title>
             </Offcanvas.Header>
             <Offcanvas.Body>
-              <Nav className="flex-grow-1 justify-content-center align-items-center">
+              <Nav className="d-flex flex-grow-1 justify-content-center custom-navbar-item-style">
                 <NavLink to={"/"} className="nav-link">
+                  <IoHomeOutline
+                    className="me-2 custom-media-queris"
+                    size={"20px"}
+                    color="#346ed175"
+                  />
                   صفحه نخست
                 </NavLink>
-                <NavLink to={"/news"} className="nav-link">
-                  اخبار و اطلاعیه
+                <NavLink to={"/honors"} className="nav-link" id="dsply1">
+                  <TfiCup
+                    className="me-2 custom-media-queris"
+                    size={"20px"}
+                    color="#346ed175"
+                  />
+                  افتخارات
                 </NavLink>
                 <NavLink to={"/album"} className="nav-link">
+                  <SlPicture
+                    className="me-2 custom-media-queris"
+                    size={"20px"}
+                    color="#346ed175"
+                  />
                   گالری تصاویر
+                </NavLink>
+                <NavLink to={"/news"} className="nav-link">
+                  <FaRegNewspaper
+                    className="me-2 custom-media-queris"
+                    size={"20px"}
+                    color="#346ed175"
+                  />
+                  اخبار و اطلاعیه
                 </NavLink>
                 {/* <NavLink to={"/registration"} className="nav-link">
                   پیش ثبت نام
                 </NavLink> */}
-                <NavLink to={"/contact"} className="nav-link">
-                  ارتباط با هنرستان
-                </NavLink>
-                <NavLink to={"/honors"} className="nav-link" id="dsply1">
-                  افتخارات
-                </NavLink>
                 <NavLink to={"/aboutus"} className="nav-link" id="dsply2">
+                  <MdPermContactCalendar
+                    className="me-2 custom-media-queris"
+                    size={"20px"}
+                    color="#346ed175"
+                  />
                   درباره هنرستان
+                </NavLink>
+                <NavLink to={"/contact"} className="nav-link">
+                  <MdConnectWithoutContact
+                    className="me-2 custom-media-queris"
+                    size={"20px"}
+                    color="#346ed175"
+                  />
+                  ارتباط با هنرستان
                 </NavLink>
                 {/* <NavLink to={"/grading"} className="nav-link" id="dsply4">نمره دهی</NavLink>
                       <NavLink to={"/rollcall"} className="nav-link" id="dsply5">سامانه حضور و غیاب</NavLink> */}
