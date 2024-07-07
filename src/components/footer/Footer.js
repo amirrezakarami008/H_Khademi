@@ -7,11 +7,10 @@ import { FaCopyright, FaPhoneAlt, FaQuoteLeft, FaQuoteRight } from "react-icons/
 import {
   FaLocationDot,
   FaPhoneFlip,
-  FaRegNewspaper,
-  FaSchoolCircleCheck,
+  FaRegNewspaper
 } from "react-icons/fa6";
 import { SlPicture } from "react-icons/sl";
-import { MdPermContactCalendar } from "react-icons/md";
+import { MdConnectWithoutContact, MdPermContactCalendar } from "react-icons/md";
 function Footer() {
   const ItemsR = [
     {
@@ -37,27 +36,27 @@ function Footer() {
   const ItemsL = [
     {
       id: 1,
-      icon: <FaRegNewspaper size={"25px"} className="icon-color" />,
-      desc: "اخبار و اطلاعیه",
-      href: "/news/",
-    },
-    {
-      id: 2,
       icon: <SlPicture size={"25px"} className="icon-color" />,
       desc: "گالری تصاویر",
       href: "/album",
     },
     {
-      id: 3,
-      icon: <FaSchoolCircleCheck size={"25px"} className="icon-color" />,
-      desc: "پیش ثبت نام",
-      href: "/registration",
+      id: 2,
+      icon: <FaRegNewspaper size={"25px"} className="icon-color" />,
+      desc: "اخبار و اطلاعیه",
+      href: "/news/",
     },
     {
-      id: 4,
+      id: 3,
       icon: <MdPermContactCalendar size={"25px"} className="icon-color" />,
       desc: "درباره هنرستان",
       href: "/aboutus",
+    },
+    {
+      id: 4,
+      icon: <MdConnectWithoutContact size={"25px"} className="icon-color" />,
+      desc: "ارتباط با هنرستان",
+      href: "/contact",
     },
     // {
     //   id: 1,
