@@ -11,3 +11,7 @@
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
 }
+.img-size{
+    aspect-ratio: 16/14 !important;
+    object-fit: cover !important;
+}

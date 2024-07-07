@@ -4,6 +4,7 @@ import { FaArrowLeft, FaGithub, FaInstagram, FaPhone, FaTelegram } from "react-i
 import { Link } from "react-router-dom";
 function DesighnedItem({
   name,
+  image ,
   position,
   github,
   instagram,
@@ -21,8 +22,10 @@ function DesighnedItem({
       <Col sm="12" md="4" className="my-1">
         <Card>
           <Card.Img
+          className="img-size"
             variant="top"
-            src="https://t4.ftcdn.net/jpg/03/05/46/75/360_F_305467506_QczGkOYLChAeFpjsLrzFltFXwxunx0xE.jpg"
+            src={image}
+            alt="طراحان و توسعه دهندگان سایت"
           />
           <Card.Body id="card-body">
             <Card.Title className="text-center m-auto py-4 fw-bold">
