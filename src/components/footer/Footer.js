@@ -18,7 +18,7 @@ function Footer() {
       icon: <FaPhoneFlip size={"25px"} className="icon-color" />,
       desc: "شماره هنرستان :",
       hrefPhone: "tel:+03532726420",
-      phone: "36217013-035",
+      phone: "32726420-035",
     },
     // {
     //   id: 2,
@@ -145,7 +145,7 @@ function Footer() {
                   className="eitta-style"
                 />
               </Link>
-              <Link className="app-color" target="blank" to="tel:+03532726420" >
+              <Link className="app-color" to="tel:+03532726420" >
                 <FaPhoneAlt className="fs-4 phone-hover" />
               </Link>
             </div>

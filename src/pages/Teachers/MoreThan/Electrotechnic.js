@@ -63,7 +63,7 @@ function Electrotechnic() {
           <Col sm={12} md={8} lg={9} className="my-3">
             <h2 className="p-5 fw-bold">رشته الکتروتکنیک</h2>
             <div className="text-center">
-              <img src={image} alt="" className="img-fluid rounded shadow" />
+              <img src="https://www.kanoon.ir/FileRepository/ImageUpload/285823/13990624P7d22h3637.jpg" alt="" className="img-fluid rounded shadow w-100" />
             </div>
             <p className="p-5 text-justify my-4">
               رشته الکتروتکنیک درباره بکارگیری انرژی الکتریکی در مصارف خانگی و

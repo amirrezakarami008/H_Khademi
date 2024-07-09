@@ -2,7 +2,6 @@ import Header from "../../../components/header/Header";
 import Footer from "../../../components/footer/Footer";
 import { Container, Row, Col, ListGroup, Card } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import image from "../../../assets/images/Shabake.jpg";
 function Accounting() {
   return (
     <>
@@ -61,7 +60,7 @@ function Accounting() {
           <Col sm={12} md={8} lg={9} className="my-3">
             <h2 className="p-5 fw-bold">رشته حسابداری</h2>
             <div className="text-center">
-              <img src={image} alt="" className="img-fluid rounded shadow" />
+              <img src="https://mag.gozine2.ir/wp-content/uploads/2022/01/%D9%85%D9%88%D8%B3%D8%B3%D9%87-%D8%AD%D8%B3%D8%A7%D8%A8%D8%AF%D8%A7%D8%B1%DB%8C-%D8%B4%D8%B1%DA%A9%D8%AA-%D8%AD%D8%B3%D8%A7%D8%A8%D8%B1%D8%B3%DB%8C.jpg" alt="" className="img-fluid rounded shadow w-100" />
             </div>
             <p className="p-5 text-justify my-4">
               بسیاری از دانش آموزان پایه نهم که برای دهم انتخاب رشته می کنند،
@@ -216,7 +215,7 @@ function Accounting() {
               </Card>
             </Col>
             <div className="text-center p-3">
-              <img src={image} alt="" className="shadow img-fluid rounded" />
+              <img src="https://www.kanoon.ir/FileRepository/ImageUpload/608747/13980228P2w1wm2778.jpg" alt="" className="shadow img-fluid rounded w-100" />
             </div>
             <h4 className="pt-5 pb-2 px-5 fw-bold">اینده شغلی رشته حسابداری</h4>
             <p className="pb-5 px-5 text-justify">

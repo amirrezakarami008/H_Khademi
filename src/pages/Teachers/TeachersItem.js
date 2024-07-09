@@ -36,9 +36,6 @@ function TeachersItem({ image_id, name, field }) {
                   className="eitta-style"
                 />
               </Link>
-              <Link className="app-color" target="blank">
-                <FaPhoneAlt className="fs-4 phone-hover" />
-              </Link>
             </div>
           </div>
         </CardFooter>

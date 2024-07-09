@@ -48,7 +48,7 @@ function Management() {
 
   return (
     <Container>
-      <div className="bg-manager" data-aos="flip-left"
+      <div className="bg-manager mt-5" data-aos="flip-left"
           data-aos-easing="ease-out-cubic"
           data-aos-duration="2000">
         <Row

@@ -248,9 +248,9 @@ function NetworkAndSoftware() {
               داشته باشد.
             </p>
             <div className="text-center">
-              <img src={image} alt="" className="shadow img-fluid rounded" />
+              <img src="https://bayanbox.ir/view/9018765952495637954/fanavari.jpg" alt="" className="shadow img-fluid rounded w-100" />
             </div>
-            <p className="px-5 py-3 text-justify">
+            <p className="px-5 py-5 text-justify">
               دلیل اصلی محبوبیت این رشته گرایش‌های مختلف و جذاب آن است.به طوری
               که شما از هر گرایشی که در دانشگاه انتخاب میکنید میتوانید به صورت
               تخصصی در هر کدام از ریز شاخه‌های آن گرایش هم فعالیت و تحصیل کنید.

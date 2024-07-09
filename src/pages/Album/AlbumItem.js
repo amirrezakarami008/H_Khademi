@@ -26,7 +26,7 @@ function AlbumItem({id , images, title, link, icon }) {
             className="img-fliud style-image"
           />
           <Card.Body className="card-body-album">
-            <Card.Title className="text-center m-auto">{title}</Card.Title>
+            <Card.Title className="">{title}</Card.Title>
             <Link
               className="text-decoration-none text-black d-block text-center pt-3"
               target="blank"
