@@ -17,16 +17,16 @@ function Footer() {
       id: 1,
       icon: <FaPhoneFlip size={"25px"} className="icon-color" />,
       desc: "شماره هنرستان :",
-      hrefPhone: "tel:+03536217013",
+      hrefPhone: "tel:+03532726420",
       phone: "36217013-035",
     },
-    {
-      id: 2,
-      icon: <FaPhoneFlip size={"25px"} className="icon-color" />,
-      desc: "شماره امور مالی :",
-      hrefPhone: "tel:+36215478-035",
-      phone: "36215478-035",
-    },
+    // {
+    //   id: 2,
+    //   icon: <FaPhoneFlip size={"25px"} className="icon-color" />,
+    //   desc: "شماره امور مالی :",
+    //   hrefPhone: "tel:+36215478-035",
+    //   phone: "36215478-035",
+    // },
     {
       id: 3,
       icon: <FaLocationDot size={"25px"} className="icon-color" />,
@@ -145,7 +145,7 @@ function Footer() {
                   className="eitta-style"
                 />
               </Link>
-              <Link className="app-color" target="blank">
+              <Link className="app-color" target="blank" to="tel:+03532726420" >
                 <FaPhoneAlt className="fs-4 phone-hover" />
               </Link>
             </div>

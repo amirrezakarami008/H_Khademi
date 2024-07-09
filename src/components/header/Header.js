@@ -169,7 +169,7 @@ function Header() {
                   className="btn-login mx-1"
                   data-aos="fade-right"
                 >
-                  <span className="mx-1">035-36217013</span>
+                  <span className="mx-1">035-32726420</span>
                   <span className="mx-1">
                     <FaPhoneFlip size={"20px"} className="custom-icon-style" />
                   </span>

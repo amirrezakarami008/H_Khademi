@@ -9,42 +9,42 @@ function Contact() {
   let Items1 = [
     {
       icon: "fs-5 fa-solid color-green fa-phone-volume",
-      title: "شماره هنرستان :",
-      phone: "7013-3621-035",
-      hrefphone: "tel:+03536217013",
+      title: "شماره هنرستان : ",
+      to : "tel:+03532726420",
+      phone: "03532726420"
     },
+    // {
+    //   icon: "fs-5 fa-solid color-green fa-phone-volume",
+    //   title: "شماره امور مالی :",
+    //   phone: "7013-3621-035",
+    //   hrefphone: "tel:+03536217013",
+    // },
     {
       icon: "fs-5 fa-solid color-green fa-phone-volume",
-      title: "شماره امور مالی :",
-      phone: "7013-3621-035",
-      hrefphone: "tel:+03536217013",
-    },
-    {
-      icon: "fs-5 fa-solid color-green fa-phone-volume",
-      title: "مدیر هنرستان (جلیل رفیعی) :",
-      phone: "7013-3621-035",
-      hrefphone: "tel:+03536217013",
+      title: "مدیر هنرستان (جلیل رفیعی) : ",
+      to : "tel:+09131577842",
+      phone: "09131577842"
     },
   ];
 
   let Items2 = [
     {
       icon: "fs-5 fa-solid color-green me-2 fa-phone-volume",
-      title: "معاون اموزشی (حمید انتظاری) :",
-      phone: "7013-3621-035",
-      hrefphone: "tel:+03536217013",
+      title: "معاون اموزشی (حمید انتظاری) : ",
+      phone: "09133563461",
+      to : "tel:+09133563461",
     },
     {
       icon: "fs-5 fa-solid color-green me-2 fa-phone-volume",
-      title: "معاون پرورشی (محسن شاه محمدی) :",
-      phone: "7013-3621-035",
-      hrefphone: "tel:+03536217013",
+      title: "معاون پرورشی (محسن شاه محمدی) : ",
+      phone: "09134558921",
+      to : "tel:+09134558921",
     },
     {
       icon: "fs-5 fa-solid color-green me-2 fa-phone-volume",
-      title: "معاون فنی (جلال دهقان) :",
-      phone: "7013-3621-035",
-      hrefphone: "tel:+03536217013",
+      title: "معاون فنی (جلال دهقان) : ",
+      phone: "09132525274",
+      to : "tel:+09132525274",
     },
   ];
   return (
@@ -54,7 +54,7 @@ function Contact() {
         <div className="Contact mt-5">
           <Row className="align-items-center">
             <Col lg={6}>
-              <div className="PhoneNumber my-4 p-3">
+              <div className="PhoneNumber my-2 p-3">
                 <div className="footer-body">
                   <h3 className="fw-bold mb-3 color-red">
                     راه های ارتباط با هنرستان
