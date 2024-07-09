@@ -78,7 +78,7 @@ function AlbumZoom() {
       if (album == null || album.status === "ERROR") {
         alert("اتصال شما برقرار نیست");
       } else {
-        setAmir(album.data[albumId].images);
+        setAmir(album.data[albumId]);
         setIsPending(false);
       }
     };
@@ -94,7 +94,7 @@ function AlbumZoom() {
       <Container>
         <div className="title-album">
           <p className="fs-4 bg-dark bg-opacity-25 rounded p-3 border border-white">
-            تصاویر اردوی مشهد مقدس{" "}
+            {amir.title}
           </p>
           <span className="fs-6 fw-bold bg-dark bg-opacity-50 rounded p-4 border border-white border-opacity-50">
             برای دیدن تصاویر بیشتر اسکرول کنید
@@ -105,7 +105,7 @@ function AlbumZoom() {
             className="animation"
           />
         </div>
-        {amir.map((item) => (
+        {amir.images.map((item) => (
           <AlbumZoomItems key={item.id} {...item} />
         ))}
       </Container>

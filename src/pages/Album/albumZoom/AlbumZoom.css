@@ -1,5 +1,6 @@
 body{
     height: 100vh;
+    
 }
 .container-style{
     width: 100%;
@@ -7,9 +8,10 @@ body{
     background: url('../../../assets/images/Logo.jpg');
     background-size: cover;
     background-position: center;
-    background-color: rgba(0, 0, 255, 0.357);
-    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, 0.536);
+    background-blend-mode: multiply;
     background-attachment: fixed;
+    filter: brightness(0.7) contrast(1.2) saturate(1.5);
 }
 .title-album{
     text-align: center;
